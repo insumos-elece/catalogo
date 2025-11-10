@@ -405,7 +405,7 @@ function sendOrderViaWhatsApp() {
 
     message += `\n\nGracias.`;
 
-    const whatsappNumber = '5493434287037'; 
+    const whatsappNumber = '5493436218915'; 
     const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
 
     window.open(whatsappURL, '_blank');

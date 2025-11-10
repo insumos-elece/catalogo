@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Insumos by Elece</title>
+    
+    <link rel="icon" type="image/x-icon" href="./imagenes/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <button class="menu-toggle" id="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <img src= "./imagenes/logo.jpg" alt="Logo de mi sitio web" class="logo-placeholder">
+        
+        <div class="header-title">Catálogo de Insumos</div>
+        <div class="cart-container">
+             <div class="cart-icon" id="cart-icon">🛒</div>
+        </div>
+    </header>
+    
+    <nav>
+        <div class="nav-container">
+            
+            <button id="scroll-left" class="scroll-btn left">
+                &lt; 
+            </button>
+            <button id="scroll-right" class="scroll-btn right">
+                &gt; 
+            </button>
+            
+            <ul class="nav-menu" id="nav-menu">
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="main-content">
+        <div class="container">
+            <div class="catalog-wrapper" id="catalog-wrapper">
+                </div>
+        </div>
+    </div>
+    
+    <div class="cart-modal" id="cart-modal">
+        <div class="cart-content">
+            <div class="cart-header">
+                <h2>Pedido</h2>
+                <button class="close-cart" id="close-cart">×</button>
+            </div>
+            <div id="cart-items">
+                </div>
+
+            <div class="cart-form">
+                <input type="text" id="customer-name" placeholder="Tu nombre *" required>
+                <textarea id="customer-message" placeholder="¿Consultas?"></textarea>
+            </div>
+
+            <div class="cart-total" id="cart-total">
+                Total: $<span id="total-amount">0</span>
+            </div>
+            <button class="checkout-btn" id="checkout-btn">
+                 Finalizar Pedido por WhatsApp
+            </button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

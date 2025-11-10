@@ -1,0 +1,9 @@
+RESOLVER
+fijarme en que tenga todo el mismo padding y este todo centrado
+logo - cambiar
+buscar todas las imagenes de los productos
+Menos separacion entre categorias, tiene mucho padding
+
+prioridades:
+1. responsive en celular no se ve bien, tampoco el menu hamburguesa
+2. 
